@@ -1,0 +1,14 @@
+// Напишите программу, которая принимает на вход пятизначное число и проверяет, является ли оно палиндромом.
+Console.WriteLine("Enter a five-digit number:");
+ string n = Console.ReadLine();
+      if (n.Length == 5)
+      {
+        if ((n[0] == n[4]) && (n[1] == n[3]))
+
+        {
+          Console.WriteLine("Palindrom!");
+        }
+        else Console.WriteLine("Not a Palindrom"); 
+      }
+      else Console.WriteLine("Does not meet the condition");
+      
